@@ -1,0 +1,293 @@
+{
+  "files": [
+    {
+      "table": "CODBEX_CITY",
+      "schema": "PUBLIC",
+      "file": "/codbex-athena-data-sample/cities.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true,
+      "version": ""
+    },
+    {
+      "table": "CODBEX_COMPANY",
+      "schema": "PUBLIC",
+      "file": "/codbex-athena-data-sample/companies.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_CUSTOMER",
+      "schema": "PUBLIC",
+      "file": "/codbex-athena-data-sample/customers.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_EMPLOYEE",
+      "schema": "PUBLIC",
+      "file": "/codbex-athena-data-sample/employees.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_GOODSISSUEITEM",
+      "schema": "PUBLIC",
+      "file": "/codbex-athena-data-sample/goods-issue-items.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_GOODSISSUE",
+      "schema": "PUBLIC",
+      "file": "/codbex-athena-data-sample/goods-issues.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_GOODSRECEIPTITEM",
+      "schema": "PUBLIC",
+      "file": "/codbex-athena-data-sample/goods-receipt-items.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_GOODSRECEIPT",
+      "schema": "PUBLIC",
+      "file": "/codbex-athena-data-sample/goods-receipts.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_MANUFACTURER",
+      "schema": "PUBLIC",
+      "file": "/codbex-athena-data-sample/manufacturers.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_PRODUCT",
+      "schema": "PUBLIC",
+      "file": "/codbex-athena-data-sample/products.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_PURCHASEINVOICEITEM",
+      "schema": "PUBLIC",
+      "file": "/codbex-athena-data-sample/purchase-invoice-items.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_PURCHASEINVOICE",
+      "schema": "PUBLIC",
+      "file": "/codbex-athena-data-sample/purchase-invoices.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_PURCHASEORDERITEM",
+      "schema": "PUBLIC",
+      "file": "/codbex-athena-data-sample/purchase-order-items.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_PURCHASEORDER",
+      "schema": "PUBLIC",
+      "file": "/codbex-athena-data-sample/purchase-orders.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_SALESINVOICEITEM",
+      "schema": "PUBLIC",
+      "file": "/codbex-athena-data-sample/sales-invoice-items.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true,
+      "version": "0.1"
+    },
+    {
+      "table": "CODBEX_SALESINVOICE",
+      "schema": "PUBLIC",
+      "file": "/codbex-athena-data-sample/sales-invoices.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_SALESORDERITEM",
+      "schema": "PUBLIC",
+      "file": "/codbex-athena-data-sample/sales-order-items.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_SALESORDER",
+      "schema": "PUBLIC",
+      "file": "/codbex-athena-data-sample/sales-orders.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_STORE",
+      "schema": "PUBLIC",
+      "file": "/codbex-athena-data-sample/stores.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_SUPPLIER",
+      "schema": "PUBLIC",
+      "file": "/codbex-athena-data-sample/suppliers.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_DIMENSION",
+      "schema": "PUBLIC",
+      "file": "/codbex-athena-data-sample/dimensions.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_UOM",
+      "schema": "PUBLIC",
+      "file": "/codbex-athena-data-sample/uoms.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true,
+      "version": "1.1"
+    },
+    {
+      "table": "CODBEX_STOCKRECORD",
+      "schema": "PUBLIC",
+      "file": "/codbex-athena-data-sample/stock-record.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true,
+      "version": ""
+    },
+    {
+      "table": "CODBEX_STOCKADJUSTMENT",
+      "schema": "PUBLIC",
+      "file": "/codbex-athena-data-sample/stock-adjustments.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true,
+      "version": "1.0"
+    },
+    {
+      "table": "CODBEX_STOCKADJUSTMENTITEM",
+      "schema": "PUBLIC",
+      "file": "/codbex-athena-data-sample/stock-adjustment-items.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true,
+      "version": ""
+    },
+    {
+      "table": "CODBEX_CATALOGUE",
+      "schema": "PUBLIC",
+      "file": "/codbex-athena-data-sample/catalogue.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true,
+      "version": ""
+    },
+    {
+      "table": "CODBEX_NUMBER",
+      "schema": "PUBLIC",
+      "file": "/codbex-athena-data-sample/numbers.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true,
+      "version": ""
+    },
+    {
+      "table": "CODBEX_CURRENCY",
+      "schema": "PUBLIC",
+      "file": "/codbex-athena-data-sample/currencies.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true,
+      "version": ""
+    }
+  ]
+}

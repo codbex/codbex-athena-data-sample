@@ -1,0 +1,40 @@
+DIMENSION_ID,DIMENSION_SAP,DIMENSION_NAME
+1,NODMNSN,(no dimension)
+2,ACCEL,Acceleration
+3,ACBAC,Acid/Base Capacity
+4,SURFAC,Area
+5,CONDUC,Conductivity
+6,DENSI,Density
+7,VISDYN,Dynamic viscosity
+8,RESIST,Electrical Resistance
+9,ECURR,Electrical Current
+10,VOLTAG,Electrical Tension
+11,CAPACI,Electrical Capacity
+12,ENERGY,Energy
+13,FORCE,Force
+14,FREQU,Frequency
+15,THCOND,Heat Conductivity
+16,VISKIN,Kinematic Viscosity
+17,LENGTH,Length
+18,LIGHT,Luminous Intensity
+19,MAGNFD,Magnetic Field Density
+20,MASS,Mass
+21,MASSBD,Mass Coverage
+22,MASFLO,Mass Flow
+23,MOENER,Molar Energy
+24,MOLMAS,Mole Mass
+25,MOLQU,Mole Quantity
+26,POWER,Power
+27,PRESS,Pressure
+28,PROPOR,Proportion
+29,SPREST,Specific Electrical Resistance
+30,SPHCAP,Specific Heat Capacity
+31,SPAEQU,Specific Equivalent
+32,SPARAD,Specific Activity of Radioactive Substances
+33,SPENER,Specific Energy
+34,SPEED,Speed
+35,SURFTE,Surface Tension
+36,TEMP,Temperature
+37,TIME,Time
+38,VOLUME,Volume
+39,VOLFLO,Volume Rate of Flow
