@@ -1,6 +1,6 @@
 {
     "name": "@codbex/codbex-athena-data-sample",
-    "version": "0.3.0",
+    "version": "0.1.0",
     "repository": {
         "url": "https://github.com/codbex/codbex-athena-data-sample.git",
         "type": "git"
