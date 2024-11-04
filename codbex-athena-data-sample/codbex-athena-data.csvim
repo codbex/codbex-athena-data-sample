@@ -42,66 +42,6 @@
       "distinguishEmptyFromNull": true
     },
     {
-      "table": "CODBEX_GOODSISSUEITEM",
-      "schema": "PUBLIC",
-      "file": "/codbex-athena-data-sample/goods-issue-items.csv",
-      "header": true,
-      "useHeaderNames": true,
-      "delimField": ",",
-      "delimEnclosing": "\"",
-      "distinguishEmptyFromNull": true
-    },
-    {
-      "table": "CODBEX_GOODSISSUE",
-      "schema": "PUBLIC",
-      "file": "/codbex-athena-data-sample/goods-issues.csv",
-      "header": true,
-      "useHeaderNames": true,
-      "delimField": ",",
-      "delimEnclosing": "\"",
-      "distinguishEmptyFromNull": true
-    },
-    {
-      "table": "CODBEX_GOODSRECEIPTITEM",
-      "schema": "PUBLIC",
-      "file": "/codbex-athena-data-sample/goods-receipt-items.csv",
-      "header": true,
-      "useHeaderNames": true,
-      "delimField": ",",
-      "delimEnclosing": "\"",
-      "distinguishEmptyFromNull": true
-    },
-    {
-      "table": "CODBEX_GOODSRECEIPT",
-      "schema": "PUBLIC",
-      "file": "/codbex-athena-data-sample/goods-receipts.csv",
-      "header": true,
-      "useHeaderNames": true,
-      "delimField": ",",
-      "delimEnclosing": "\"",
-      "distinguishEmptyFromNull": true
-    },
-    {
-      "table": "CODBEX_MANUFACTURER",
-      "schema": "PUBLIC",
-      "file": "/codbex-athena-data-sample/manufacturers.csv",
-      "header": true,
-      "useHeaderNames": true,
-      "delimField": ",",
-      "delimEnclosing": "\"",
-      "distinguishEmptyFromNull": true
-    },
-    {
-      "table": "CODBEX_PRODUCT",
-      "schema": "PUBLIC",
-      "file": "/codbex-athena-data-sample/products.csv",
-      "header": true,
-      "useHeaderNames": true,
-      "delimField": ",",
-      "delimEnclosing": "\"",
-      "distinguishEmptyFromNull": true
-    },
-    {
       "table": "CODBEX_PURCHASEINVOICEITEM",
       "schema": "PUBLIC",
       "file": "/codbex-athena-data-sample/purchase-invoice-items.csv",
@@ -115,26 +55,6 @@
       "table": "CODBEX_PURCHASEINVOICE",
       "schema": "PUBLIC",
       "file": "/codbex-athena-data-sample/purchase-invoices.csv",
-      "header": true,
-      "useHeaderNames": true,
-      "delimField": ",",
-      "delimEnclosing": "\"",
-      "distinguishEmptyFromNull": true
-    },
-    {
-      "table": "CODBEX_PURCHASEORDERITEM",
-      "schema": "PUBLIC",
-      "file": "/codbex-athena-data-sample/purchase-order-items.csv",
-      "header": true,
-      "useHeaderNames": true,
-      "delimField": ",",
-      "delimEnclosing": "\"",
-      "distinguishEmptyFromNull": true
-    },
-    {
-      "table": "CODBEX_PURCHASEORDER",
-      "schema": "PUBLIC",
-      "file": "/codbex-athena-data-sample/purchase-orders.csv",
       "header": true,
       "useHeaderNames": true,
       "delimField": ",",
@@ -156,36 +76,6 @@
       "table": "CODBEX_SALESINVOICE",
       "schema": "PUBLIC",
       "file": "/codbex-athena-data-sample/sales-invoices.csv",
-      "header": true,
-      "useHeaderNames": true,
-      "delimField": ",",
-      "delimEnclosing": "\"",
-      "distinguishEmptyFromNull": true
-    },
-    {
-      "table": "CODBEX_SALESORDERITEM",
-      "schema": "PUBLIC",
-      "file": "/codbex-athena-data-sample/sales-order-items.csv",
-      "header": true,
-      "useHeaderNames": true,
-      "delimField": ",",
-      "delimEnclosing": "\"",
-      "distinguishEmptyFromNull": true
-    },
-    {
-      "table": "CODBEX_SALESORDER",
-      "schema": "PUBLIC",
-      "file": "/codbex-athena-data-sample/sales-orders.csv",
-      "header": true,
-      "useHeaderNames": true,
-      "delimField": ",",
-      "delimEnclosing": "\"",
-      "distinguishEmptyFromNull": true
-    },
-    {
-      "table": "CODBEX_STORE",
-      "schema": "PUBLIC",
-      "file": "/codbex-athena-data-sample/stores.csv",
       "header": true,
       "useHeaderNames": true,
       "delimField": ",",
@@ -222,50 +112,6 @@
       "delimEnclosing": "\"",
       "distinguishEmptyFromNull": true,
       "version": "1.1"
-    },
-    {
-      "table": "CODBEX_STOCKRECORD",
-      "schema": "PUBLIC",
-      "file": "/codbex-athena-data-sample/stock-record.csv",
-      "header": true,
-      "useHeaderNames": true,
-      "delimField": ",",
-      "delimEnclosing": "\"",
-      "distinguishEmptyFromNull": true,
-      "version": ""
-    },
-    {
-      "table": "CODBEX_STOCKADJUSTMENT",
-      "schema": "PUBLIC",
-      "file": "/codbex-athena-data-sample/stock-adjustments.csv",
-      "header": true,
-      "useHeaderNames": true,
-      "delimField": ",",
-      "delimEnclosing": "\"",
-      "distinguishEmptyFromNull": true,
-      "version": "1.0"
-    },
-    {
-      "table": "CODBEX_STOCKADJUSTMENTITEM",
-      "schema": "PUBLIC",
-      "file": "/codbex-athena-data-sample/stock-adjustment-items.csv",
-      "header": true,
-      "useHeaderNames": true,
-      "delimField": ",",
-      "delimEnclosing": "\"",
-      "distinguishEmptyFromNull": true,
-      "version": ""
-    },
-    {
-      "table": "CODBEX_CATALOGUE",
-      "schema": "PUBLIC",
-      "file": "/codbex-athena-data-sample/catalogue.csv",
-      "header": true,
-      "useHeaderNames": true,
-      "delimField": ",",
-      "delimEnclosing": "\"",
-      "distinguishEmptyFromNull": true,
-      "version": ""
     },
     {
       "table": "CODBEX_NUMBER",
