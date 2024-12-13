@@ -2,27 +2,31 @@ NUMBER_ID,NUMBER_TYPE,NUMBER_PREFIX,NUMBER_LENGTH,NUMBER_VALUE
 1,Lead,LE,10,0
 2,Opportunity,OP,10,0
 3,Quotation,QT,10,0
-4,Sales Order,SO,10,28
-5,Sales Invoice,SI,10,28
-6,Credit Note,CN,10,0
-7,Sales Payment Receipt,SPR,10,0
-8,Purchase Requisition,PR,10,0
-9,Purchase Order,PO,10,30
-10,Request for Quotation,RFQ,10,0
-11,Goods Receipt Note,GRN,10,0
-12,Debit Note,DN,10,0
-13,Purchase Order Change Request,POC,10,0
-14,Purchase Invoice,PI,10,29
-15,Purchase Payment Receipt,PPR,10,0
-16,Goods Receipt,STR,10,30
-17,Goods Issue,STI,10,30
-18,Stock Transfer,STT,10,0
-19,Stock Return,STRE,10,0
-20,Customer Payment,CPAY,10,0
-21,Supplier Payment,SPAY,10,0
-22,Employee Payment,EPAY,10,0
-23,Stock Adjustment,STA,10,0
-24,Work Order,WO,10,0
-25,Contract,CO,10,0
-26,Delivery Note,DE,10,0
-27,Waste,WA,10,0
+4,Sales Order,SO,10,0
+5,Sales Invoice,SI,10,0
+6,Sales Payment Receipt,SPR,10,0
+7,Purchase Requisition,PR,10,0
+8,Purchase Order,PO,10,0
+9,Request for Quotation,RFQ,10,0
+10,Goods Receipt Note,GRN,10,0
+11,Purchase Order Change Request,POC,10,0
+12,Purchase Invoice,PI,10,0
+13,Purchase Payment Receipt,PPR,10,0
+14,Goods Receipt,STR,10,0
+15,Goods Issue,STI,10,0
+16,Stock Transfer,STT,10,0
+17,Stock Return,STRE,10,0
+18,Customer Payment,CPAY,10,0
+19,Supplier Payment,SPAY,10,0
+20,Employee Payment,EPAY,10,0
+21,Stock Adjustment,STA,10,0
+22,Work Order,WO,10,0
+23,Contract,CO,10,0
+24,Delivery Note,DE,10,0
+25,Waste,WA,10,0
+26,Jop Position,JP,10,0
+27,Job Assignment,JA,10,0
+28,Employee Contract,ECO,10,0
+29,Project,PRO,10,0
+30,Leave Request,LRD,10,0
+31,Asset,ASS,10,0
