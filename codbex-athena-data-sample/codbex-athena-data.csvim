@@ -125,6 +125,17 @@
       "version": ""
     },
     {
+      "table": "CODBEX_CURRENCY",
+      "schema": "PUBLIC",
+      "file": "/codbex-athena-data-sample/currencies.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true,
+      "version": ""
+    },
+    {
       "table": "CODBEX_JOURNALENTRY",
       "schema": "PUBLIC",
       "file": "/codbex-athena-data-sample/journal-entries.csv",
@@ -132,6 +143,72 @@
       "useHeaderNames": true,
       "delimField": ",",
       "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true,
+      "version": ""
+    },
+    {
+      "table": "CODBEX_CONTACT",
+      "schema": "PUBLIC",
+      "file": "/codbex-athena-data-sample/contacts.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "'",
+      "distinguishEmptyFromNull": true,
+      "version": ""
+    },
+    {
+      "table": "CODBEX_CUSTOMERPAYMENT",
+      "schema": "PUBLIC",
+      "file": "/codbex-athena-data-sample/customer-payments.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "'",
+      "distinguishEmptyFromNull": true,
+      "version": ""
+    },
+    {
+      "table": "CODBEX_DEPARTMENT",
+      "schema": "PUBLIC",
+      "file": "/codbex-athena-data-sample/departments.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "'",
+      "distinguishEmptyFromNull": true,
+      "version": ""
+    },
+    {
+      "table": "CODBEX_ORGANIZATION",
+      "schema": "PUBLIC",
+      "file": "/codbex-athena-data-sample/organizations.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "'",
+      "distinguishEmptyFromNull": true,
+      "version": ""
+    },
+    {
+      "table": "CODBEX_PAYMENTADJUSTMENT",
+      "schema": "PUBLIC",
+      "file": "/codbex-athena-data-sample/payment-adjustments.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "'",
+      "distinguishEmptyFromNull": true,
+      "version": ""
+    },
+    {
+      "table": "CODBEX_SUPPLIERPAYMENT",
+      "schema": "PUBLIC",
+      "file": "/codbex-athena-data-sample/supplier-payments.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "'",
       "distinguishEmptyFromNull": true,
       "version": ""
     }
