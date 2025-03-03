@@ -155,9 +155,9 @@
       "version": ""
     },
     {
-      "table": "CODBEX_SALESINVOICEITEM",
+      "table": "CODBEX_SALESINVOICE",
       "schema": "PUBLIC",
-      "file": "/codbex-athena-data-sample/sales-invoice-items.csv",
+      "file": "/codbex-athena-data-sample/sales-invoices.csv",
       "header": true,
       "useHeaderNames": true,
       "delimField": ",",
@@ -166,9 +166,9 @@
       "version": ""
     },
     {
-      "table": "CODBEX_SALESINVOICE",
+      "table": "CODBEX_SALESINVOICEITEM",
       "schema": "PUBLIC",
-      "file": "/codbex-athena-data-sample/sales-invoices.csv",
+      "file": "/codbex-athena-data-sample/sales-invoice-items.csv",
       "header": true,
       "useHeaderNames": true,
       "delimField": ",",
