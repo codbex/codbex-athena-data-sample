@@ -125,9 +125,9 @@
       "version": ""
     },
     {
-      "table": "CODBEX_CURRENCY",
+      "table": "CODBEX_CONTACT",
       "schema": "PUBLIC",
-      "file": "/codbex-athena-data-sample/currencies.csv",
+      "file": "/codbex-athena-data-sample/contacts.csv",
       "header": true,
       "useHeaderNames": true,
       "delimField": ",",
