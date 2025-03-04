@@ -1,0 +1,121 @@
+DEPARTMENT_ID,DEPARTMENT_NAME,DEPARTMENT_ORGANIZATION
+1,Human Resources (HR),1
+2,Finance,1
+3,Marketing,2
+4,Sales,2
+5,Information Technology (IT),1
+6,Research and Development (R&D),2
+7,Customer Support,6
+8,Operations,6
+9,Legal,6
+10,Product Development,7
+11,Procurement,7
+12,Logistics,7
+13,Public Relations (PR),11
+14,Quality Assurance (QA),11
+15,Engineering,11
+16,Business Development,12
+17,Compliance,12
+18,Supply Chain Management,12
+19,Corporate Strategy,16
+20,Internal Audit,16
+21,Data Science,16
+22,Security,17
+23,Facilities Management,17
+24,Content Creation,17
+25,Training and Development,21
+26,Investor Relations,21
+27,Corporate Social Responsibility (CSR),21
+28,Creative Design,22
+29,Executive Management,22
+30,Enterprise Risk Management (ERM),22
+31,Logistics,3
+32,Supply Chain Management,3
+33,Operations,3
+34,Legal,3
+35,Risk Management,3
+36,Construction Management,4
+37,Civil Engineering,4
+38,Architecture,4
+39,Project Planning,4
+40,Safety Compliance,4
+41,Customer Experience,5
+42,Marketing Analytics,5
+43,Product Innovation,5
+44,Quality Assurance,5
+45,Retail Operations,5
+46,Healthcare Management,6
+47,Nursing,6
+48,Pharmaceutical Services,6
+49,Public Health,6
+50,Bioinformatics,6
+51,Telecom Operations,7
+52,Network Security,7
+53,Customer Onboarding,7
+54,Cloud Infrastructure,7
+55,Sales Support,7
+56,Renewable Energy Solutions,8
+57,Energy Policy Research,8
+58,Sustainability Operations,8
+59,Grid Management,8
+60,Power Systems Analysis,8
+61,Retail Marketing,9
+62,Inventory Management,9
+63,E-commerce,9
+64,Customer Loyalty Programs,9
+65,Visual Merchandising,9
+66,Structural Engineering,10
+67,Construction Technology,10
+68,Urban Planning,10
+69,Building Services,10
+70,Safety Management,10
+71,Food Science,11
+72,Nutrition Research,11
+73,Production Planning,11
+74,Quality Control,11
+75,Sustainability Practices,11
+76,Creative Direction,12
+77,Film Production,12
+78,Sound Engineering,12
+79,Event Management,12
+80,Digital Editing,12
+81,Drug Research,13
+82,Clinical Trials,13
+83,Regulatory Affairs,13
+84,Manufacturing Operations,13
+85,Pharmaceutical Sales,13
+86,Aerospace Design,14
+87,Space Systems Engineering,14
+88,Satellite Communications,14
+89,Flight Operations,14
+90,Defense Technology,14
+91,Vehicle Design,15
+92,Automotive Engineering,15
+93,Manufacturing Planning,15
+94,After-Sales Service,15
+95,Sustainability Research,15
+96,Software Development,16
+97,IT Infrastructure,16
+98,Cloud Computing,16
+99,AI Research,16
+100,Cybersecurity,16
+101,Consulting Services,17
+102,Change Management,17
+103,Market Analysis,17
+104,Leadership Training,17
+105,Strategic Planning,17
+106,Electronics Manufacturing,18
+107,Embedded Systems,18
+108,Product Testing,18
+109,Supply Chain Optimization,18
+110,Quality Management,18
+111,Curriculum Development,19
+112,Teaching,19
+113,Educational Technology,19
+114,Admissions,19
+115,Student Engagement,19
+116,Digital Media Production,20
+117,Content Strategy,20
+118,Social Media Management,20
+119,Advertising,20
+120,Video Production,20
