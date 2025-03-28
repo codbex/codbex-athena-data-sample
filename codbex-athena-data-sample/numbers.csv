@@ -16,7 +16,7 @@ NUMBER_ID,NUMBER_TYPE,NUMBER_PREFIX,NUMBER_LENGTH,NUMBER_VALUE
 15,Goods Issue,STI,10,0
 16,Stock Transfer,STT,10,0
 17,Stock Return,STRE,10,0
-18,Customer Payment,CPAY,10,30
+18,Customer Payment,CPAY,10,27
 19,Supplier Payment,SPAY,10,30
 20,Employee Payment,EPAY,10,0
 21,Stock Adjustment,STA,10,0
