@@ -34,9 +34,9 @@
       "version": ""
     },
     {
-      "table": "CODBEX_CUSTOMERPAYMENT",
+      "table": "CODBEX_CUSTOMER",
       "schema": "PUBLIC",
-      "file": "/codbex-athena-data-sample/customer-payments.csv",
+      "file": "/codbex-athena-data-sample/customers.csv",
       "header": true,
       "useHeaderNames": true,
       "delimField": ",",
@@ -45,9 +45,9 @@
       "version": ""
     },
     {
-      "table": "CODBEX_CUSTOMER",
+      "table": "CODBEX_CUSTOMERPAYMENT",
       "schema": "PUBLIC",
-      "file": "/codbex-athena-data-sample/customers.csv",
+      "file": "/codbex-athena-data-sample/customer-payments.csv",
       "header": true,
       "useHeaderNames": true,
       "delimField": ",",
@@ -133,9 +133,9 @@
       "version": ""
     },
     {
-      "table": "CODBEX_PURCHASEINVOICEITEM",
+      "table": "CODBEX_PURCHASEINVOICE",
       "schema": "PUBLIC",
-      "file": "/codbex-athena-data-sample/purchase-invoice-items.csv",
+      "file": "/codbex-athena-data-sample/purchase-invoices.csv",
       "header": true,
       "useHeaderNames": true,
       "delimField": ",",
@@ -144,9 +144,9 @@
       "version": ""
     },
     {
-      "table": "CODBEX_PURCHASEINVOICE",
+      "table": "CODBEX_PURCHASEINVOICEITEM",
       "schema": "PUBLIC",
-      "file": "/codbex-athena-data-sample/purchase-invoices.csv",
+      "file": "/codbex-athena-data-sample/purchase-invoice-items.csv",
       "header": true,
       "useHeaderNames": true,
       "delimField": ",",
@@ -177,9 +177,9 @@
       "version": ""
     },
     {
-      "table": "CODBEX_SUPPLIERPAYMENT",
+      "table": "CODBEX_SUPPLIER",
       "schema": "PUBLIC",
-      "file": "/codbex-athena-data-sample/supplier-payments.csv",
+      "file": "/codbex-athena-data-sample/suppliers.csv",
       "header": true,
       "useHeaderNames": true,
       "delimField": ",",
@@ -188,9 +188,9 @@
       "version": ""
     },
     {
-      "table": "CODBEX_SUPPLIER",
+      "table": "CODBEX_SUPPLIERPAYMENT",
       "schema": "PUBLIC",
-      "file": "/codbex-athena-data-sample/suppliers.csv",
+      "file": "/codbex-athena-data-sample/supplier-payments.csv",
       "header": true,
       "useHeaderNames": true,
       "delimField": ",",
