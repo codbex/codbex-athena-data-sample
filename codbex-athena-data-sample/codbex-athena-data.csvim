@@ -1,17 +1,6 @@
 {
   "files": [
     {
-      "table": "CODBEX_CITY",
-      "schema": "PUBLIC",
-      "file": "/codbex-athena-data-sample/cities.csv",
-      "header": true,
-      "useHeaderNames": true,
-      "delimField": ",",
-      "delimEnclosing": "'",
-      "distinguishEmptyFromNull": true,
-      "version": ""
-    },
-    {
       "table": "CODBEX_COMPANY",
       "schema": "PUBLIC",
       "file": "/codbex-athena-data-sample/companies.csv",
@@ -20,7 +9,8 @@
       "delimField": ",",
       "delimEnclosing": "'",
       "distinguishEmptyFromNull": true,
-      "version": ""
+      "version": "",
+      "sequence": "CODBEX_COMPANY_SEQ"
     },
     {
       "table": "CODBEX_CONTACT",
@@ -31,7 +21,8 @@
       "delimField": ",",
       "delimEnclosing": "'",
       "distinguishEmptyFromNull": true,
-      "version": ""
+      "version": "",
+      "sequence": "CODBEX_CONTACT_SEQ"
     },
     {
       "table": "CODBEX_CUSTOMER",
@@ -42,7 +33,8 @@
       "delimField": ",",
       "delimEnclosing": "'",
       "distinguishEmptyFromNull": true,
-      "version": ""
+      "version": "",
+      "sequence": "CODBEX_CUSTOMER_SEQ"
     },
     {
       "table": "CODBEX_CUSTOMERPAYMENT",
@@ -53,29 +45,8 @@
       "delimField": ",",
       "delimEnclosing": "'",
       "distinguishEmptyFromNull": true,
-      "version": ""
-    },
-    {
-      "table": "CODBEX_DEPARTMENT",
-      "schema": "PUBLIC",
-      "file": "/codbex-athena-data-sample/departments.csv",
-      "header": true,
-      "useHeaderNames": true,
-      "delimField": ",",
-      "delimEnclosing": "'",
-      "distinguishEmptyFromNull": true,
-      "version": ""
-    },
-    {
-      "table": "CODBEX_DIMENSION",
-      "schema": "PUBLIC",
-      "file": "/codbex-athena-data-sample/dimensions.csv",
-      "header": true,
-      "useHeaderNames": true,
-      "delimField": ",",
-      "delimEnclosing": "'",
-      "distinguishEmptyFromNull": true,
-      "version": ""
+      "version": "",
+      "sequence": "CODBEX_CUSTOMERPAYMENT_SEQ"
     },
     {
       "table": "CODBEX_EMPLOYEE",
@@ -86,7 +57,8 @@
       "delimField": ",",
       "delimEnclosing": "'",
       "distinguishEmptyFromNull": true,
-      "version": ""
+      "version": "",
+      "sequence": "CODBEX_EMPLOYEE_SEQ"
     },
     {
       "table": "CODBEX_JOURNALENTRY",
@@ -97,29 +69,8 @@
       "delimField": ",",
       "delimEnclosing": "'",
       "distinguishEmptyFromNull": true,
-      "version": ""
-    },
-    {
-      "table": "CODBEX_NUMBER",
-      "schema": "PUBLIC",
-      "file": "/codbex-athena-data-sample/numbers.csv",
-      "header": true,
-      "useHeaderNames": true,
-      "delimField": ",",
-      "delimEnclosing": "'",
-      "distinguishEmptyFromNull": true,
-      "version": ""
-    },
-    {
-      "table": "CODBEX_ORGANIZATION",
-      "schema": "PUBLIC",
-      "file": "/codbex-athena-data-sample/organizations.csv",
-      "header": true,
-      "useHeaderNames": true,
-      "delimField": ",",
-      "delimEnclosing": "'",
-      "distinguishEmptyFromNull": true,
-      "version": ""
+      "version": "",
+      "sequence": "CODBEX_JOURNALENTRY_SEQ"
     },
     {
       "table": "CODBEX_PAYMENTADJUSTMENT",
@@ -130,18 +81,8 @@
       "delimField": ",",
       "delimEnclosing": "'",
       "distinguishEmptyFromNull": true,
-      "version": ""
-    },
-    {
-      "table": "CODBEX_PURCHASEINVOICE",
-      "schema": "PUBLIC",
-      "file": "/codbex-athena-data-sample/purchase-invoices.csv",
-      "header": true,
-      "useHeaderNames": true,
-      "delimField": ",",
-      "delimEnclosing": "'",
-      "distinguishEmptyFromNull": true,
-      "version": ""
+      "version": "",
+      "sequence": "CODBEX_PAYMENTADJUSTMENT_SEQ"
     },
     {
       "table": "CODBEX_PURCHASEINVOICEITEM",
@@ -152,18 +93,20 @@
       "delimField": ",",
       "delimEnclosing": "'",
       "distinguishEmptyFromNull": true,
-      "version": ""
+      "version": "",
+      "sequence": "CODBEX_PURCHASEINVOICEITEM_SEQ"
     },
     {
-      "table": "CODBEX_SALESINVOICE",
+      "table": "CODBEX_PURCHASEINVOICE",
       "schema": "PUBLIC",
-      "file": "/codbex-athena-data-sample/sales-invoices.csv",
+      "file": "/codbex-athena-data-sample/purchase-invoices.csv",
       "header": true,
       "useHeaderNames": true,
       "delimField": ",",
       "delimEnclosing": "'",
       "distinguishEmptyFromNull": true,
-      "version": ""
+      "version": "",
+      "sequence": "CODBEX_PURCHASEINVOICE_SEQ"
     },
     {
       "table": "CODBEX_SALESINVOICEITEM",
@@ -174,18 +117,20 @@
       "delimField": ",",
       "delimEnclosing": "'",
       "distinguishEmptyFromNull": true,
-      "version": ""
+      "version": "",
+      "sequence": "CODBEX_SALESINVOICEITEM_SEQ"
     },
     {
-      "table": "CODBEX_SUPPLIER",
+      "table": "CODBEX_SALESINVOICE",
       "schema": "PUBLIC",
-      "file": "/codbex-athena-data-sample/suppliers.csv",
+      "file": "/codbex-athena-data-sample/sales-invoices.csv",
       "header": true,
       "useHeaderNames": true,
       "delimField": ",",
       "delimEnclosing": "'",
       "distinguishEmptyFromNull": true,
-      "version": ""
+      "version": "",
+      "sequence": "CODBEX_SALESINVOICE_SEQ"
     },
     {
       "table": "CODBEX_SUPPLIERPAYMENT",
@@ -196,18 +141,20 @@
       "delimField": ",",
       "delimEnclosing": "'",
       "distinguishEmptyFromNull": true,
-      "version": ""
+      "version": "",
+      "sequence": "CODBEX_SUPPLIERPAYMENT_SEQ"
     },
     {
-      "table": "CODBEX_UOM",
+      "table": "CODBEX_SUPPLIER",
       "schema": "PUBLIC",
-      "file": "/codbex-athena-data-sample/uoms.csv",
+      "file": "/codbex-athena-data-sample/suppliers.csv",
       "header": true,
       "useHeaderNames": true,
       "delimField": ",",
       "delimEnclosing": "'",
       "distinguishEmptyFromNull": true,
-      "version": ""
+      "version": "",
+      "sequence": "CODBEX_SUPPLIER_SEQ"
     }
   ]
 }
