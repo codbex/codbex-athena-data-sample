@@ -1,11 +1,52 @@
-# codbex-athena-data-sample
+# <img src="https://www.codbex.com/icon.svg" width="32" style="vertical-align: middle;"> codbex-athena-data-sample
 
-Sample Reports in SQL format
+## 📖 Table of Contents
+* [📦 Data](#-data)
+* [🐳 Local Development with Docker](#-local-development-with-docker)
+* [🔍 Sample Reports in SQL format](#-sample-reports-in-sql-format)
+
+## 📦 Data 
+
+* [Companies](https://github.com/codbex/codbex-athena-data-sample/blob/main/codbex-athena-data-sample/companies.csv)
+* [Contacts](https://github.com/codbex/codbex-athena-data-sample/blob/main/codbex-athena-data-sample/contacts.csv)
+* [Customer payments](https://github.com/codbex/codbex-athena-data-sample/blob/main/codbex-athena-data-sample/customer-payments.csv)
+* [Customers](https://github.com/codbex/codbex-athena-data-sample/blob/main/codbex-athena-data-sample/customers.csv)
+* [Employees](https://github.com/codbex/codbex-athena-data-sample/blob/main/codbex-athena-data-sample/employees.csv)
+* [Journal Entries](https://github.com/codbex/codbex-athena-data-sample/blob/main/codbex-athena-data-sample/journal-entries.csv)
+* [Payment Adjustments](https://github.com/codbex/codbex-athena-data-sample/blob/main/codbex-athena-data-sample/payment-adjustments.csv)
+* [Purchase Invoice Items](https://github.com/codbex/codbex-athena-data-sample/blob/main/codbex-athena-data-sample/purchase-invoice-items.csv)
+* [Purchase Invoices](https://github.com/codbex/codbex-athena-data-sample/blob/main/codbex-athena-data-sample/purchase-invoices.csv)
+* [Sales Invoice Items](https://github.com/codbex/codbex-athena-data-sample/blob/main/codbex-athena-data-sample/sales-invoice-items.csv)
+* [Sales Invoices](https://github.com/codbex/codbex-athena-data-sample/blob/main/codbex-athena-data-sample/sales-invoices.csv)
+* [Supplier Payments](https://github.com/codbex/codbex-athena-data-sample/blob/main/codbex-athena-data-sample/supplier-payments.csv)
+* [Suppliers](https://github.com/codbex/codbex-athena-data-sample/blob/main/codbex-athena-data-sample/suppliers.csv)
+
+## 🐳 Local Development with Docker
+
+When running this project inside the codbex Atlas Docker image, you must provide authentication for installing dependencies from GitHub Packages.
+1. Create a GitHub Personal Access Token (PAT) with `read:packages` scope.
+2. Pass `NPM_TOKEN` to the Docker container:
+
+    ```
+    docker run \
+    -e NPM_TOKEN=<your_github_token> \
+    --rm -p 80:80 \
+    ghcr.io/codbex/codbex-atlas:latest
+    ```
+
+⚠️ **Notes**
+- The `NPM_TOKEN` must be available at container runtime.
+- This is required even for public packages hosted on GitHub Packages.
+- Never bake the token into the Docker image or commit it to source control.
+
+
+## 🔍 Sample Reports in SQL format
+
 
 - [Finance](#finance)
-  - [Cashflow](#cashflow)
-  - [Inventory](#inventory)
-  - [Customers](#customers)
+- [Cashflow](#cashflow)
+- [Inventory](#inventory)
+- [Customers](#customers)
 
 ## Finance
 ### Cashflow
@@ -177,21 +218,3 @@ Sample Reports in SQL format
   ORDER BY
       invoice_count DESC;
   ```
-
-## Local Development with Docker
-
-When running this project inside the codbex Atlas Docker image, you must provide authentication for installing dependencies from GitHub Packages.
-1. Create a GitHub Personal Access Token (PAT) with `read:packages` scope.
-2. Pass `NPM_TOKEN` to the Docker container:
-
-    ```
-    docker run \
-    -e NPM_TOKEN=<your_github_token> \
-    --rm -p 80:80 \
-    ghcr.io/codbex/codbex-atlas:latest
-    ```
-
-⚠️ **Notes**
-- The `NPM_TOKEN` must be available at container runtime.
-- This is required even for public packages hosted on GitHub Packages.
-- Never bake the token into the Docker image or commit it to source control.
