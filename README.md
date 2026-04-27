@@ -13,7 +13,7 @@
 * [Customers](https://github.com/codbex/codbex-athena-data-sample/blob/main/codbex-athena-data-sample/customers.csv)
 * [Employees](https://github.com/codbex/codbex-athena-data-sample/blob/main/codbex-athena-data-sample/employees.csv)
 * [Journal Entries](https://github.com/codbex/codbex-athena-data-sample/blob/main/codbex-athena-data-sample/journal-entries.csv)
-* [Payment Adjustments](https://github.com/codbex/codbex-athena-data-sample/blob/main/codbex-athena-data-sample/payment-adjustments.csv)
+* [Payment Adjustments](https://github.com/codbex/codbex-athena-data-sample/blob/main/codbex-athena-data-sample/payment-adjusments.csv)
 * [Purchase Invoice Items](https://github.com/codbex/codbex-athena-data-sample/blob/main/codbex-athena-data-sample/purchase-invoice-items.csv)
 * [Purchase Invoices](https://github.com/codbex/codbex-athena-data-sample/blob/main/codbex-athena-data-sample/purchase-invoices.csv)
 * [Sales Invoice Items](https://github.com/codbex/codbex-athena-data-sample/blob/main/codbex-athena-data-sample/sales-invoice-items.csv)
